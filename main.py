@@ -235,7 +235,7 @@ async def ask(ctx, *, question: str):
     await ctx.send(response)
 
 
-# Écouter pour l'événement de connexion du bot
+
 @bot.event
 async def on_ready():
     print(f'{bot.user} est connecté!')
